@@ -1,5 +1,4 @@
 # <version 1406>
-
 import token
 from unittest import result
 from transformers import BertConfig,BertModel
