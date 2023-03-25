@@ -1,3 +1,5 @@
+# <version 1406>
+
 import token
 from unittest import result
 from transformers import BertConfig,BertModel
@@ -9,8 +11,6 @@ print(config)
 model = BertModel(config)
 print(model)
 
-
-# <version 1406>
 # encoded_sequences = torch.tensor(encoded_sequences)
 
 result = model(encoded_sequences)
