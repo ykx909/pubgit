@@ -1,4 +1,4 @@
-# <version 1406 1409 1418hub 1421-local 1424-yuebuqun-ee 1426-ykx>
+# <version 1406 1409 1418hub 1421-local 1424-yuebuqun-ee 1426-ykx 1718local>
 import token
 from unittest import result
 from transformers import BertConfig,BertModel
