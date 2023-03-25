@@ -1,4 +1,4 @@
-# <version 1406>
+# <version 1406 1409>
 import token
 from unittest import result
 from transformers import BertConfig,BertModel
@@ -12,7 +12,7 @@ print(model)
 
 # encoded_sequences = torch.tensor(encoded_sequences)
 
-result = model(encoded_sequences)
+# result = model(encoded_sequences)
 print(result[0].shape)
 print(result[1].shape)
 print(result.last_hidden_state.shape)
